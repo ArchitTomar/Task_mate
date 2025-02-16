@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Navbar = () => {
+ const Navbar = () => {
   return (
     <nav className='sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 w-full'>
       <div className='px-4 mx-auto relative text-sm w-full'>
@@ -21,4 +21,5 @@ export const Navbar = () => {
       </div>
     </nav>
   )
-}
+};
+export default Navbar;
