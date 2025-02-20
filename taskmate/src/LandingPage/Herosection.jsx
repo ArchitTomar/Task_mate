@@ -6,7 +6,7 @@ const Herosection = () => {
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         TaskMate Assign, Track, Achieve tool
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-cyan-500 to-blue-800 p-4  text-transparent bg-clip-text">
           {" "} for Developers
         </span>
       </h1>
@@ -14,7 +14,7 @@ const Herosection = () => {
         Turn tasks into achievements—assign, track, and complete with ease! Stay organized, meet deadlines, and boost productivity with TaskMate, your ultimate team management solution.
       </p>
       <div className="flex justify-center my-10">
-        <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
+        <a href="#" className="bg-gradient-to-r from-cyan-500 to-blue-800 p-4 text-white py-3 px-4 mx-3 rounded-md">
           Start for free
         </a>
         <a href="#" className="py-3 px-4 mx-3 rounded-md border">

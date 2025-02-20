@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
  const Navbar = () => {
   return (
@@ -15,7 +16,9 @@ import React from 'react'
           </ul>
           <div className='hidden lg:flex justify-center space-x-12 items-center'>
             <a href="#" className='py-2 px-3 border rounded-md'> Sign In </a>
-            <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md'>Create An Account</a>
+            <Link to="/HomePage" className="bg-gradient-to-r from-cyan-500 to-blue-800 p-4 text-white py-2 px-3 rounded-md">
+                 Create An Account
+                 </Link>
           </div>
         </div>
       </div>

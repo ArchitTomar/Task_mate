@@ -8,7 +8,7 @@ function Workflow() {
       {/* Heading */}
       <h1 className='text-3xl sm:text-5xl lg:text-6xl text-center mt-6 font-bold'>
         Simplify your
-        <span className='bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text'>
+        <span className='bg-gradient-to-r from-cyan-500 to-blue-800 p-4 text-transparent bg-clip-text'>
           {" "}task management
         </span>
       </h1>
