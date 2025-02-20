@@ -4,27 +4,23 @@ import Herosection from './LandingPage/Herosection';
 import FeatureSection from './LandingPage/FeatureSection';
 import Workflow from './LandingPage/Workflow';
 import Footer from './LandingPage/Footer';
-import HomePage from './Home/homepage';
+import HomePage from './Home/homepage';  
 
-
-const App=()=> {
+const App = () => {
   return (
-    <div>
-     <Navbar/>
-     <div className='max-w-7xl mx-auto pt-20 px-6'>
-     <Herosection/>
-     <FeatureSection/>
-     <Workflow/>
-   
-     </div>
-          <Footer/>
-          <div>
-          <Routes>
-          < Route path="/homepage" element={<Home/>} />
-          </Routes>
-          </div>
-    </div>
-  )
+    <Router>  
+      <Navbar />
+      <div className='max-w-7xl mx-auto pt-20 px-6'>
+        <Herosection />
+        <FeatureSection />
+        <Workflow />
+      </div>
+      <Footer />
+      <Routes>
+        <Route path="/homepage" element={<HomePage />} /> 
+      </Routes>
+    </Router>
+  );
 }
 
-export default App; 
+export default App;
