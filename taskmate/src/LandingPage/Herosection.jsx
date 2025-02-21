@@ -1,5 +1,6 @@
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
+import { Link } from "react-router-dom";
 
 const Herosection = () => {
   return (
@@ -14,9 +15,11 @@ const Herosection = () => {
         Turn tasks into achievements—assign, track, and complete with ease! Stay organized, meet deadlines, and boost productivity with TaskMate, your ultimate team management solution.
       </p>
       <div className="flex justify-center my-10">
-        <a href="#" className="bg-gradient-to-r from-cyan-500 to-blue-800 p-4 text-white py-3 px-4 mx-3 rounded-md">
-          Start for free
-        </a>
+      <Link to ="/SignupPage" className="bg-gradient-to-r from-cyan-500 to-blue-800 p-4 text-white py-3 px-4 mx-3 rounded-md">
+          Get Started
+          </Link>
+       
+        
         <a href="#" className="py-3 px-4 mx-3 rounded-md border">
           Document
         </a>
