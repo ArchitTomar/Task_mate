@@ -9,7 +9,6 @@ import Create from "./Home/Create";
 import LoginPage from "./LoginPage/LoginPage";
 import SignupPage from "./LoginPage/SignupPage";
 
-// Home Page Layout with Navbar & Footer
 const LandingPage = () => {
   return (
     <>
@@ -28,7 +27,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        
+        <Route path="/" element={<LandingPage />} />  {/* Root route fixed */}
         <Route path="/HomePage" element={<HomePage />} /> 
         <Route path="/LoginPage" element={<LoginPage />} /> 
         <Route path="/Create" element={<Create />} /> 
