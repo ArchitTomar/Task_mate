@@ -8,7 +8,7 @@ const HomePage = () => {
         <nav className="flex space-x-6">
           <Link to="/dashboard" className="px-6 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-lg">Dashboard</Link>
           <Link to="/projects" className="px-6 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-lg">Projects</Link>
-          <Link to="/issues" className="px-6 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-lg">Issues</Link>
+          <Link to="/Issue" className="px-6 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-lg">Issues</Link>
           <Link to="/Create" className="px-6 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-lg">Task</Link>
           <Link to="/Create">
          <button className="px-6 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-lg font-bold">

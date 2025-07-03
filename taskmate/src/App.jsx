@@ -8,6 +8,7 @@ import HomePage from "./Home/homepage";
 import Create from "./Home/Create";
 import LoginPage from "./LoginPage/LoginPage";
 import SignupPage from "./LoginPage/SignupPage";
+ import IssueButton from "./Home/IssueButton";
 
 const LandingPage = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/HomePage" element={<HomePage />} /> 
         <Route path="/LoginPage" element={<LoginPage />} /> 
         <Route path="/Create" element={<Create />} /> 
+        <Route path ="/Issue" element={<IssueButton/>}/>
         <Route path="/SignupPage" element={<SignupPage />} /> 
       </Routes>
     </Router>
